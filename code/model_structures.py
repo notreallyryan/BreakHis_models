@@ -11,7 +11,7 @@ from keras import backend as K
 """
 Data Augmenter - add some variation to the dataset to reduce overfitting
 
-values taken from Agarwal et al.
+values taken from Agarwal et al. (DOI: 10.1007/978-981-16-2641-8_8)
 """
 def augmenter():
     ROTATION = 0.7 #dis in radians, more accurately, Agarwal uses 40 degrees (which is 0.694 radians). Unfortunately, I am not Agarwal.
@@ -181,7 +181,6 @@ def VGG19_base(imgsize):
 
 """
 Custom model, adapted from Agarwal et al.
-DOI: 10.1007/978-981-16-2641-8_8
 """
 
 def custom_model(imgsize):
