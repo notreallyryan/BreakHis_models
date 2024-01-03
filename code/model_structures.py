@@ -180,7 +180,8 @@ def VGG19_base(imgsize):
 
 
 """
-Custom model
+Custom model, adapted from Agarwal et al.
+DOI: 10.1007/978-981-16-2641-8_8
 """
 
 def custom_model(imgsize):
