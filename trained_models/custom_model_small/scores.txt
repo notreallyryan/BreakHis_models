@@ -1,0 +1,3 @@
+                loss  accuracy  precision    recall        f1
+training    0.558055  0.743750   0.666792  0.934687  0.773444
+validation  0.654842  0.692308   0.458333  0.275000  0.343750
