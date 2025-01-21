@@ -1,0 +1,17 @@
+# Ignore all ipython checkpoints
+**/.ipynb_checkpoints/
+
+# Ignore macOS systems files
+.DS_Store
+
+# Ignore most models, except the best ones
+/trained_models/VGG_model/*
+/trained_models/MobileNet_model/*
+/trained_models/ResNet_model/*
+/trained_models/DenseNet_model/*
+
+!/trained_models/VGG_model/model_20250119_144839_19
+!/trained_models/MobileNet_model/model_20250119_142822_13
+!/trained_models/ResNet_model/model_20250119_144033_23
+!/trained_models/DenseNet_model/model_20250119_142233_25
+
